@@ -8,7 +8,6 @@ scala:
   
 script: sbt clean scalastyle test
 
-# Testing with OpenJDK7 as well just to be adventurous!
 jdk:
   - oraclejdk7
   - openjdk7
