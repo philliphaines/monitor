@@ -12,10 +12,3 @@ script: sbt clean scalastyle test
 jdk:
   - oraclejdk7
   - openjdk7
-
-# Custom notification settings
-notifications:
-  email:
-    recipients:
-      - anirvanchakraborty@gmail.com
-      - jan.machacek@gmail.com
